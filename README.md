@@ -71,8 +71,3 @@ Usage: ja3rp -a <address> [-d <destination URL> -c <cert file> -k <cert key> -w 
 Example: $ ja3rp -a localhost:1337 -d https://example.com -c certificate.crt -k certificate.key -w whitelist.txt -b blacklist.txt
 ```
 Hashes should be stored in .txt files, each separated by a new line.
-
-## Licenses
-This project is licensed with the [MIT License](LICENSE).
-
-The included (and then modified) `net/http`, `internal/profile` and `crypto` packages fall under the [go source code license](./LICENSE_GO.txt).
